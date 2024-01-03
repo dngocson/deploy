@@ -1,0 +1,65 @@
+.container {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.answerContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.answer {
+  padding: 10px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid green;
+  color: green;
+  border-radius: 5px;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+.wrong {
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+}
+.notChoose {
+  background-color: white;
+  color: green;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+}
+.result {
+  padding: 5px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  width: fit-content;
+  margin: 40px auto;
+  color: white;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+.green {
+  background-color: green;
+}
+.newQuiz {
+  padding: 15px 150px;
+  font-size: 20px;
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 50px auto;
+  display: block;
+}
